@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: #222222;
+}
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo {
+}
+.header-logo img {
+}
+
+.header-search input {
+  width: 280px;
+  font-size: 13px;
+  border-top-left-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+.header-search button {
+  width: 80px;
+  background-color: #eb1f27;
+  color: #fff;
+  font-size: 13px;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-top-right-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+}
+.header-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.header-cart p{
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 0;
+    
+}
+
+.header-cart span{
+    font-size: 13px;
+    color: #fff;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #eb1f27;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+/* end header */
+
+/* Main */
+main{
+    background-color: #e7ecf4;
+    padding-bottom: 15px;
+}
+.main-card .row .card{
+    align-items: center;
+}
+.main-card h4{
+    font-size: 18px;
+}
+.main-card .row img{
+    width: 50%;
+    
+}
+.main-card .row .card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-card .row .card-body h5 {
+    font-size: 13px;
+    font-weight: bold  ;
+    color: #333;
+
+}
+.main-card .row .card-body p {
+    font-size: 13px;
+    color: #333;
+}
+.main-card .row .card-body p span {
+    font-size: 13px;
+    color: #eb1f27;
+    font-weight: bold;
+}
+
+/* end main */
+
+/* footer */
+footer{
+    padding-bottom: 80px;
+    background-color: #e7ecf4;
+}
+.footer-col-1 h4 {
+    font-size: 18px;
+    color: #333;
+    border-bottom: 1px solid #333;
+    padding-bottom: 12px;
+}
+.footer-col-1 p{
+    font-size: 13px;
+    color: #333333;
+}
+
+.footer-col-2{
+    background-color: #1d1e24;
+    color: #a1b1bc;
+    font-size: 13px;
+    height: 40px;
+    line-height: 40px;
+}
+
+@media (max-width: 480px) {
+    .header-search input{
+        width: 180px;
+    }
+        .header-search button {
+            width: 70px;
+        }
+}
