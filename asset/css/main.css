@@ -128,11 +128,21 @@ footer{
     line-height: 40px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 739px) {
     .header-search input{
-        width: 100%;
+        width: 180px;
     }
         .header-search button {
-            width: 30%;
+            width: 80px;
+        }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .header-search input {
+            width: 240px;
+        }
+    
+        .header-search button {
+            width: 80px;
         }
 }
