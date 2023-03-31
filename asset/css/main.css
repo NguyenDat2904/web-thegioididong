@@ -130,9 +130,9 @@ footer{
 
 @media (max-width: 480px) {
     .header-search input{
-        width: 100%;
+        width: 180px;
     }
         .header-search button {
-            width: 30%;
+            width: 70px;
         }
 }
