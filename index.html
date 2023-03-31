@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./asset/css/base.css" />
+    <link rel="stylesheet" href="./asset/css/main.css" />
+    <title>Web bán hàng</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <nav class="navbar navbar-dark navbar-expand-lg">
+        <div class="container ">
+          <div class="header-logo pb-4">
+            <img src="./asset/img/psd/img/logo.png" alt="" />
+            <a href="#"></a>
+          </div>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+        <div class="collapse navbar-collapse pt-lg-0" id="navbarSupportedContent">
+            <div class="header-list ms-auto">
+                <form class="d-flex header-search pe-2" role="search">
+                    <input class="form-control" type="search" placeholder="Tìm kiếm..." aria-label="Search" />
+                    <button class="btn btn-outline-danger" type="submit">
+                        Tìm kiếm
+                    </button>
+                </form>
+                <div class="header-cart">
+                    <p>Giỏ Hàng</p>
+                    <span>8</span>
+                </div>
+            </div>
+        </div>         
+          
+        </div>
+      </nav>
+    </header>
+    <!-- end header -->
+
+    <!-- main -->
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-8 mt-2">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="4"
+                  aria-label="Slide 5"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="5"
+                  aria-label="Slide 6"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./asset/img/psd/img/slide-1.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./asset/img/psd/img/slide-2.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./asset/img/psd/img/slide-3.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./asset/img/psd/img/slide-4.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./asset/img/psd/img/slide-5.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./asset/img/psd/img/slide-6.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="main-card mt-3">
+              <h4>Sản Phẩm Nổi Bật</h4>
+              <div class="row">
+                <div class="col-12 col-md-4 mb-2">
+                  <div class="card">
+                    <img src="./asset/img/psd/img/product-1.png" alt="" />
+                    <div class="card-body">
+                      <h5>iPhone Xs Max 2 Sim - 256GB</h5>
+                      <p>Giá Bán: <span>32.990.000đ</span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 mb-2">
+                  <div class="card">
+                    <img src="./asset/img/psd/img/product-1.png" alt="" />
+                    <div class="card-body">
+                      <h5>iPhone Xs Max 2 Sim - 256GB</h5>
+                      <p>Giá Bán: <span>32.990.000đ</span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 mb-2">
+                  <div class="card">
+                    <img src="./asset/img/psd/img/product-1.png" alt="" />
+                    <div class="card-body">
+                      <h5>iPhone Xs Max 2 Sim - 256GB</h5>
+                      <p>Giá Bán: <span>32.990.000đ</span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 mb-2">
+                  <div class="card">
+                    <img src="./asset/img/psd/img/product-1.png" alt="" />
+                    <div class="card-body">
+                      <h5>iPhone Xs Max 2 Sim - 256GB</h5>
+                      <p>Giá Bán: <span>32.990.000đ</span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 mb-2">
+                  <div class="card">
+                    <img src="./asset/img/psd/img/product-1.png" alt="" />
+                    <div class="card-body">
+                      <h5>iPhone Xs Max 2 Sim - 256GB</h5>
+                      <p>Giá Bán: <span>32.990.000đ</span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 mb-2">
+                  <div class="card">
+                    <img src="./asset/img/psd/img/product-1.png" alt="" />
+                    <div class="card-body">
+                      <h5>iPhone Xs Max 2 Sim - 256GB</h5>
+                      <p>Giá Bán: <span>32.990.000đ</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main-card mt-3">
+              <h4>Sản Phẩm Mới</h4>
+              <div class="row">
+                <div class="col-12 col-md-4 mb-2">
+                  <div class="card">
+                    <img src="./asset/img/psd/img/product-1.png" alt="" />
+                    <div class="card-body">
+                      <h5>iPhone Xs Max 2 Sim - 256GB</h5>
+                      <p>Giá Bán: <span>32.990.000đ</span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 mb-2">
+                  <div class="card">
+                    <img src="./asset/img/psd/img/product-1.png" alt="" />
+                    <div class="card-body">
+                      <h5>iPhone Xs Max 2 Sim - 256GB</h5>
+                      <p>Giá Bán: <span>32.990.000đ</span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 mb-2">
+                  <div class="card">
+                    <img src="./asset/img/psd/img/product-1.png" alt="" />
+                    <div class="card-body">
+                      <h5>iPhone Xs Max 2 Sim - 256GB</h5>
+                      <p>Giá Bán: <span>32.990.000đ</span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 mb-2">
+                  <div class="card">
+                    <img src="./asset/img/psd/img/product-1.png" alt="" />
+                    <div class="card-body">
+                      <h5>iPhone Xs Max 2 Sim - 256GB</h5>
+                      <p>Giá Bán: <span>32.990.000đ</span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 mb-2">
+                  <div class="card">
+                    <img src="./asset/img/psd/img/product-1.png" alt="" />
+                    <div class="card-body">
+                      <h5>iPhone Xs Max 2 Sim - 256GB</h5>
+                      <p>Giá Bán: <span>32.990.000đ</span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 mb-2">
+                  <div class="card">
+                    <img src="./asset/img/psd/img/product-1.png" alt="" />
+                    <div class="card-body">
+                      <h5>iPhone Xs Max 2 Sim - 256GB</h5>
+                      <p>Giá Bán: <span>32.990.000đ</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 mt-2">
+            <div class="main-banner mb-2">
+              <img
+                src="./asset/img/psd/img/banner-1.png"
+                class="img-fluid w-100"
+                alt=""
+              />
+            </div>
+            <div class="main-banner mb-2">
+              <img
+                src="./asset/img/psd/img/banner-2.png"
+                class="img-fluid w-100"
+                alt=""
+              />
+            </div>
+            <div class="main-banner mb-2">
+              <img
+                src="./asset/img/psd/img/banner-3.png"
+                class="img-fluid w-100"
+                alt=""
+              />
+            </div>
+            <div class="main-banner mb-2">
+              <img
+                src="./asset/img/psd/img/banner-4.png"
+                class="img-fluid w-100"
+                alt=""
+              />
+            </div>
+            <div class="main-banner mb-2">
+              <img
+                src="./asset/img/psd/img/banner-5.png"
+                class="img-fluid w-100"
+                alt=""
+              />
+            </div>
+            <div class="main-banner mt-2">
+              <img
+                src="./asset/img/psd/img/banner-6.png"
+                class="img-fluid w-100"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- end main -->
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-col" style="background-color: #fff">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-12 col-lg-3 footer-col-1">
+              <img
+                src="./asset/img/psd/img/logo-footer.png"
+                class="mb-3"
+                alt=""
+              />
+              <p>
+                Vietpro Academy thành lập năm 2009. Chúng tôi đào tạo chuyên sâu
+                trong 2 lĩnh vực là Lập trình Website & Mobile nhằm cung cấp cho
+                thị trường CNTT Việt Nam những lập trình viên thực sự chất
+                lượng, có khả năng làm việc độc lập, cũng như Team Work ở mọi
+                môi trường đòi hỏi sự chuyên nghiệp cao.
+              </p>
+            </div>
+            <div class="col-12 col-lg-3 footer-col-1">
+              <h4>Địa Chỉ</h4>
+              <p>B8A Võ Văn Dũng - Hoàng Cầu Đống Đa - Hà Nội</p>
+              <p>Số 25 Ngõ 178/71 - Tây Sơn Đống Đa - Hà Nội</p>
+            </div>
+            <div class="col-12 col-lg-3 footer-col-1">
+              <h4>Dịch Vụ</h4>
+              <p>Bảo hành rơi vỡ, ngấm nước Care Diamond</p>
+              <p>Bảo hành Care X60 rơi vỡ ngấm nước vẫn Đổi mới</p>
+            </div>
+            <div class="col-12 col-lg-3 footer-col-1">
+              <h4>Hotline</h4>
+              <p>Phone Sale: (+84) 0988 550 553</p>
+              <p>Email: vietpro.edu.vn@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-col-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p>
+                2018 © Vietpro Academy. All rights reserved. Developed by
+                Vietpro Software.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
